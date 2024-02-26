@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<title>Home Loan</title>
+	<script type="text/javascript" src="jquery.min.js"></script>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div id="homeLoan">
+		<div id="calculator">
+			<h2>Home Loan Calculator</h2>
+			<form>
+				<label>Loan Amount:</label>
+				<input type="text" name="text" id="amount">
+				<label>Interest Rate:</label>
+				<input type="text" name="text" id="rate">
+				<label>Term</label>
+				<input type="text" name="text" id="term">
+				<button id="btn" type="button">Calculate</button>
+			</form>
+		</div>
+		<div id="result">
+			<div id="result1">
+				<table border="1" cellpadding="10">
+					<tr>
+						<th colspan="2" class="head">Your Loan Payment</th>
+					</tr>
+					<tr>
+						<td>Monthly Amount</td>
+						<td id="a"></td>
+					</tr>
+					<tr>
+						<td>(<span class="nYear"></span>)Years Total Interest</td>
+						<td id="b"></td>
+					</tr>
+					<tr>
+						<td>Loan Amount</td>
+						<td id="c"></td>
+					</tr>
+					<tr>
+						<td>Interest </td>
+						<td id="d"></td>
+					</tr>
+					<tr>
+						<td>Term</td>
+						<td id="e"></td>
+					</tr>
+				</table>
+			</div>
+			<div id="result2">
+				<table border="1" cellpadding="10">
+					<tr>
+						<th colspan="4" class="head">Loan Payment Over(<span class="nYear"></span>)Years</th>
+					</tr>
+					<tr>
+						<th id="month">Month No.</th>
+						<th id="princ">Principial</th>
+						<th id="intere">Interest</th>
+						<th id="paye">Payment</th>
+					</tr>
+					<tbody id="loanResult">
+						
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="homeloan.js"></script>
+</body>
+</html>

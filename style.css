@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+   background:url("http://www.dreamtemplate.com/dreamcodes/bg_images/wood/w4.jpg") fixed;
+}
+/* #homeLoan{
+    border: 20px solid goldenrod;
+    width: auto;
+    margin: auto;
+} */
+#result{
+    display: none;
+}
+#calculator {
+    margin: auto;
+    padding: 20px;
+    width: 47%;
+    background-color:rgba(251, 255, 206,0.5);
+    margin-top: 10px;
+    height: 280px;
+}
+h2 {
+    border: 1px solid #deb9b9;
+    text-align: center;
+    padding: 10px;
+    background: #d0d9d9;
+    border-radius: 20px;
+}
+input[type="text"] {
+    display: block;
+    width: 100%;
+    line-height: 2rem;
+    border: 1px aliceblue;
+    border-radius: 15px;
+    padding-left: 15px;
+}
+input[type="text"]:hover {
+    background: #c2e7a3;
+    box-shadow: 0px 2px 1px 0.5px #acb9c4;
+}
+label {
+    margin-top: 10px;
+    display: block;
+    padding-left: 10px;
+}
+#btn {
+    width: 15%;
+    line-height: 2rem;
+    border: none;
+    margin-top: 10px;
+    border-radius: 15px;
+    position: relative;
+    left: 40%;
+}
+#btn:hover {
+    border: 1px solid #9466c1;
+    background: #e2da98;
+    font-weight: bold;
+}
+ table,th{
+    border-collapse: collapse;
+    border: none;
+    
+}
+.head{
+    padding-left: 10px;
+    background: #d0d9d9;
+}
+tr{
+    height: 40px;
+    text-align: left;
+    border: 2px solid #efd096;
+    
+}
+td {
+    padding-left: 10px;
+    border: none;
+} 
+table {
+    width: 100%;
+}
+#result1,
+#result2 {
+    position: relative;
+    left: 25%;
+    margin-top: 5px;
+    background-color: rgba(251, 255, 206,0.5);
+    width: 50%;
+}
+th#month,
+th#princ,
+th#paye,
+th#intere{
+    width: 25%;
+    padding-left: 10px;
+    background-color:rgba(92, 232, 197,0.5)
+}
